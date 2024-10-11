@@ -56,7 +56,7 @@ canvas {
 
 @keyframes blink-caret {
   from, to { border-color: transparent; }
-  50% { border-color: #14F195; }
+  50% { border-color: #5ce1e6; }
 }
 
 /* Add CSS for mobile responsiveness */
