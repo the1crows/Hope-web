@@ -2,7 +2,7 @@
 body {
   font-family: "Freckle Face", system-ui;
   background-color: #000000;
-  color: #9945FF;
+  color: #3287b9;
   margin: 0;
   padding: 0;
   overflow-x: hidden;  
@@ -36,13 +36,13 @@ canvas {
   gap: 1.5rem;
   align-items: center;
   justify-content: center;
-  color: #9945FF;
+  color: #3287b9;
 }
 
 /* Add any additional styles here */
 #typewriter {
   font-size: 4rem;
-  color: #14F195;
+  color: #5ce1e6;
   text-shadow: 2px 2px black;
   white-space: nowrap;
   overflow: hidden; /* Ensures the text is hidden until it's fully typed */
@@ -78,7 +78,7 @@ canvas {
 .line-box .line {
   height: 20px;
   border-radius: 20px;
-  background: #9945FF ;
+  background: #5ce1e6 ;
   animation: loading 2.5s forwards cubic-bezier(0,0,0,0);
 }
 
@@ -158,7 +158,7 @@ canvas {
 }
 
 .marquee {
-  color: #9945FF;
+  color: #3287b9;
   text-shadow: 2px 2px black;
   font-size: var(--step-0);
   height: calc(170px + 4rem);
@@ -201,7 +201,7 @@ canvas {
 }
 
 .-green {
-  color: #14F195;
+  color: #3beaf0;
   font-weight: 900;
 }
 
@@ -254,7 +254,7 @@ canvas {
 .logo span {
   font-size: 2.4rem;
   font-weight: bold;
-  color: #14F195;
+  color: #5ce1e6;
   text-shadow: 2px 2px black;
 }
 
@@ -273,7 +273,7 @@ canvas {
   text-decoration: none;
   font-size: 1.4rem;
   font-weight: bold;
-  color: #14F195;
+  color: #5ce1e6;
   text-shadow: 2px 2px black;
 }
 
@@ -289,16 +289,16 @@ canvas {
   padding: 10px 20px;
   margin: 0 5px;
   border-radius: 20px;
-  border-top: 2px solid #9945FF;
-  border-left: 2px solid #9945FF;
-  border-right: 2px solid #9945FF;
-  border-bottom: 0.5rem solid #14F195;
+  border-top: 2px solid #5ce1e6;
+  border-left: 2px solid #5ce1e6;
+  border-right: 2px solid #5ce1e6;
+  border-bottom: 0.5rem solid #3287b9;
   border-radius: 3rem;
   text-align: center;
 }
 
 .nav-buttons .get-pepasol {
-  color: #14F195;
+  color: #2cecf3;
   text-shadow: 2px 2px black;
 }
 
@@ -362,7 +362,7 @@ h1 {
   font-size: 4rem;
   margin: 10px 0;
   text-shadow: 2px 2px black;
-  color: #14F195;
+  color: #2cecf3;
   text-align: center; /* Center the h1 at the top */
 }
 
@@ -389,10 +389,10 @@ p {
   padding: 20px;
   width: 160px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  border-top: 2px solid #9945FF;
-  border-left: 2px solid #9945FF;
-  border-right: 2px solid #9945FF;
-  border-bottom: 0.5rem solid #14F195;
+  border-top: 2px solid #5ce1e6;
+  border-left: 2px solid #5ce1e6;
+  border-right: 2px solid #5ce1e6;
+  border-bottom: 0.5rem solid #3287b9;
   border-radius: 3rem;
   text-align: center;
   margin-bottom: 10px;
@@ -401,7 +401,7 @@ p {
 .stat-box h2 {
   font-size: 2.2rem;
   margin: 0;
-  color: #14F195 ;
+  color: #2cecf3 ;
   text-shadow: 2px 2px black;
 }
 
@@ -433,7 +433,7 @@ p {
 /* Header styles */
 .header-section h1 {
   font-size: 4rem;
-  color: #14F195;
+  color: #237fc2;
   text-shadow: 2px 2px black;
   margin-bottom: 20px;
 }
@@ -442,10 +442,10 @@ p {
 .content-section {
   padding: 20px;
   border-radius: 15px;
-  border-top: 2px solid #9945FF;
-  border-left: 2px solid #9945FF;
-  border-right: 2px solid #9945FF;
-  border-bottom: 0.5rem solid #14F195;
+  border-top: 2px solid #5ce1e6;
+  border-left: 2px solid #5ce1e6;
+  border-right: 2px solid #5ce1e6;
+  border-bottom: 0.5rem solid #237fc2;
   text-align: left;
 }
 
@@ -476,7 +476,7 @@ p {
 
 /* CA Styles */
 .ca {
-  color: #14F195; /* Text color */
+  color: #5ce1e6; /* Text color */
   font-weight: 600;
   font-size: 1.2em; /* Adjust as needed to match the button */
   background-image: linear-gradient(
@@ -583,12 +583,12 @@ p {
     from var(--mask, 0deg),
     transparent 0%,
     transparent 10%,
-    #9945FF 36%, /* Adjusted for #9945FF */
-    #9945FF 45%, /* Adjusted for #9945FF */
+    #5ce1e6 36%, /* Adjusted for #9945FF */
+    #5ce1e6 45%, /* Adjusted for #9945FF */
     transparent 50%,
     transparent 60%,
-    #9945FF 85%, /* Adjusted for #9945FF */
-    #9945FF 95%, /* Adjusted for #9945FF */
+    #5ce1e6 85%, /* Adjusted for #9945FF */
+    #5ce1e6 95%, /* Adjusted for #9945FF */
     transparent 100%
   );
   mask-size: cover;
@@ -613,7 +613,7 @@ p {
 /* Header Area Styles */
 .header-area h1 {
   font-size: 4rem;
-  color: #14F195; /* Warm coral color */
+  color: #5ce1e6; /* Warm coral color */
   text-shadow: 2px 2px black;
   margin-bottom: 20px;
   text-align: center;
@@ -627,11 +627,11 @@ p {
   text-shadow: 2px 2px black;
   border-bottom-width: 1px; /* Slightly thinner bottom border */
   border-radius: 15px;
-  border-top: 2px solid #9945FF;
-  border-left: 2px solid #9945FF;
-  border-right: 2px solid #9945FF;
-  border-bottom: 0.5rem solid #14F195;
-  color: #14F195;
+  border-top: 2px solid #5ce1e6;
+  border-left: 2px solid #5ce1e6;
+  border-right: 2px solid #5ce1e6;
+  border-bottom: 0.5rem solid #237fc2;
+  color: #5ce1e6;
 }
 
 /* Content Styles */
@@ -652,11 +652,11 @@ p {
   padding: 10px 20px;
   margin: 20px auto; /* Centers the button and adds vertical margin */
   border-radius: 3rem;
-  border-top: 2px solid #9945FF;
-  border-left: 2px solid #9945FF;
-  border-right: 2px solid #9945FF;
-  border-bottom: 0.5rem solid #14F195;
-  color: #14F195;
+  border-top: 2px solid #5ce1e6;
+  border-left: 2px solid #5ce1e6;
+  border-right: 2px solid #5ce1e6;
+  border-bottom: 0.5rem solid #237fc2;
+  color: #5ce1e6;
   display: block; /* Ensures the button is a block element */
   text-align: center; /* Centers the text inside the button */
 }
@@ -732,7 +732,7 @@ video {
   /* Header styles */
 .disc-section h1 {
   font-size: 1.8rem;
-  color: #14F195;
+  color: #37a9ef;
   text-shadow: 2px 2px black;
   margin-bottom: 20px;
   text-align: center; /* Center the text horizontally */
@@ -776,7 +776,7 @@ footer {
   padding: 20px;
   text-align: center;
   color: #ffffff;
-  border-top: 1px solid #9945FF;
+  border-top: 1px solid #37a9ef;
 }
 
 .containerfooter {
@@ -795,7 +795,7 @@ footer {
 }
 
 .column h4 {
-  color: #14F195;
+  color: #37a9ef;
   margin-bottom: 15px;
   font-size: 20px;
 }
@@ -817,11 +817,11 @@ footer {
 }
 
 .column ul li a:hover {
-  color: #9945FF;
+  color: #37a9ef;
 }
 
 .policy-id {
-  color: #14F195;
+  color: #3287b9;
   margin-top: 10px;
   font-size: 19px;
 }
@@ -831,7 +831,7 @@ footer {
 }
 
 .copyright {
-  color: #14F195;
+  color: #3287b9;
   margin-top: 30px;
   font-size: 19px;
 }
@@ -850,11 +850,11 @@ footer {
 }
 
 .social-icons a:hover {
-  color: #9945FF;
+  color: #3287b9;
 }
 
 .highlight {
-  color: #14F195; /* Choose a color that you prefer */
+  color: #37a9ef; /* Choose a color that you prefer */
 }
 
 
