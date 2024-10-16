@@ -56,7 +56,7 @@ canvas {
 
 @keyframes blink-caret {
   from, to { border-color: transparent; }
-  50% { border-color: #5ce1e6; }
+  50% { border-color: #f94b34; }
 }
 
 /* Add CSS for mobile responsiveness */
@@ -78,7 +78,7 @@ canvas {
 .line-box .line {
   height: 20px;
   border-radius: 20px;
-  background: #5ce1e6 ;
+  background: #d6f509 ;
   animation: loading 2.5s forwards cubic-bezier(0,0,0,0);
 }
 
@@ -158,7 +158,7 @@ canvas {
 }
 
 .marquee {
-  color: #3287b9;
+  color: #32f406;
   text-shadow: 2px 2px black;
   font-size: var(--step-0);
   height: calc(170px + 4rem);
@@ -201,7 +201,7 @@ canvas {
 }
 
 .-green {
-  color: #3beaf0;
+  color: #4245f4;
   font-weight: 900;
 }
 
@@ -254,7 +254,7 @@ canvas {
 .logo span {
   font-size: 2.4rem;
   font-weight: bold;
-  color: #5ce1e6;
+  color: #f4290e;
   text-shadow: 2px 2px black;
 }
 
@@ -273,7 +273,7 @@ canvas {
   text-decoration: none;
   font-size: 1.4rem;
   font-weight: bold;
-  color: #5ce1e6;
+  color: #04fc19;
   text-shadow: 2px 2px black;
 }
 
@@ -289,16 +289,16 @@ canvas {
   padding: 10px 20px;
   margin: 0 5px;
   border-radius: 20px;
-  border-top: 2px solid #5ce1e6;
-  border-left: 2px solid #5ce1e6;
-  border-right: 2px solid #5ce1e6;
-  border-bottom: 0.5rem solid #3287b9;
+  border-top: 2px solid #f2fa09;
+  border-left: 2px solid #fa2d09;
+  border-right: 2px solid #09fa0d;
+  border-bottom: 0.5rem solid #231cf2;
   border-radius: 3rem;
   text-align: center;
 }
 
 .nav-buttons .get-pepasol {
-  color: #2cecf3;
+  color: #0afb36;
   text-shadow: 2px 2px black;
 }
 
@@ -362,7 +362,7 @@ h1 {
   font-size: 4rem;
   margin: 10px 0;
   text-shadow: 2px 2px black;
-  color: #2cecf3;
+  color: #21f837;
   text-align: center; /* Center the h1 at the top */
 }
 
@@ -370,7 +370,7 @@ h1 {
 p {
   font-size: 1.2rem;
   margin: 5px 0;
-  color: #fefefe;
+  color: #1e3ff6;
   font-family: "Hanken Grotesk", sans-serif;
 }
 
@@ -389,10 +389,10 @@ p {
   padding: 20px;
   width: 160px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  border-top: 2px solid #5ce1e6;
-  border-left: 2px solid #5ce1e6;
-  border-right: 2px solid #5ce1e6;
-  border-bottom: 0.5rem solid #3287b9;
+  border-top: 2px solid #f2fa09;
+  border-left: 2px solid #fa2d09;
+  border-right: 2px solid #09fa0d;
+  border-bottom: 0.5rem solid #231cf2;
   border-radius: 3rem;
   text-align: center;
   margin-bottom: 10px;
@@ -433,7 +433,7 @@ p {
 /* Header styles */
 .header-section h1 {
   font-size: 4rem;
-  color: #237fc2;
+  color: #0af70a;
   text-shadow: 2px 2px black;
   margin-bottom: 20px;
 }
@@ -442,10 +442,10 @@ p {
 .content-section {
   padding: 20px;
   border-radius: 15px;
-  border-top: 2px solid #5ce1e6;
-  border-left: 2px solid #5ce1e6;
-  border-right: 2px solid #5ce1e6;
-  border-bottom: 0.5rem solid #237fc2;
+  border-top: 2px solid #f2fa09;
+  border-left: 2px solid #fa2d09;
+  border-right: 2px solid #09fa0d;
+  border-bottom: 0.5rem solid #231cf2;
   text-align: left;
 }
 
@@ -476,7 +476,7 @@ p {
 
 /* CA Styles */
 .ca {
-  color: #5ce1e6; /* Text color */
+  color: #30f808; /* Text color */
   font-weight: 600;
   font-size: 1.2em; /* Adjust as needed to match the button */
   background-image: linear-gradient(
@@ -613,7 +613,7 @@ p {
 /* Header Area Styles */
 .header-area h1 {
   font-size: 4rem;
-  color: #5ce1e6; /* Warm coral color */
+  color: #0466f7; /* Warm coral color */
   text-shadow: 2px 2px black;
   margin-bottom: 20px;
   text-align: center;
