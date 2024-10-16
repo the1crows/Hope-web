@@ -638,7 +638,7 @@ p {
 .details-area p {
   font-size: 18px;
   line-height: 1.6;
-  color: #ffffff;
+  color: #ff4242;
   margin-bottom: 20px;
   font-family: "Roboto", sans-serif;
   text-shadow: none;
@@ -821,7 +821,7 @@ footer {
 }
 
 .policy-id {
-  color: #111cf0;
+  color: #fbff0c;
   margin-top: 10px;
   font-size: 19px;
 }
