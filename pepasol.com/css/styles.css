@@ -2,7 +2,7 @@
 body {
   font-family: "Freckle Face", system-ui;
   background-color: #000000;
-  color: #f21f1f;
+  color: #f708b7;
   margin: 0;
   padding: 0;
   overflow-x: hidden;  
@@ -36,13 +36,13 @@ canvas {
   gap: 1.5rem;
   align-items: center;
   justify-content: center;
-  color: #f21f1f;
+  color: #f708b7;
 }
 
 /* Add any additional styles here */
 #typewriter {
   font-size: 4rem;
-  color: #f21f1f;
+  color: #f708b7;
   text-shadow: 2px 2px black;
   white-space: nowrap;
   overflow: hidden; /* Ensures the text is hidden until it's fully typed */
@@ -78,7 +78,7 @@ canvas {
 .line-box .line {
   height: 20px;
   border-radius: 20px;
-  background: #d6f509 ;
+  background: #f708b7 ;
   animation: loading 2.5s forwards cubic-bezier(0,0,0,0);
 }
 
@@ -254,7 +254,7 @@ canvas {
 .logo span {
   font-size: 2.4rem;
   font-weight: bold;
-  color: #f4290e;
+  color: #f708b7;
   text-shadow: 2px 2px black;
 }
 
@@ -273,7 +273,7 @@ canvas {
   text-decoration: none;
   font-size: 1.4rem;
   font-weight: bold;
-  color: #04fc19;
+  color: #f708b7;
   text-shadow: 2px 2px black;
 }
 
@@ -289,16 +289,16 @@ canvas {
   padding: 10px 20px;
   margin: 0 5px;
   border-radius: 20px;
-  border-top: 2px solid #f2fa09;
-  border-left: 2px solid #fa2d09;
-  border-right: 2px solid #09fa0d;
-  border-bottom: 0.5rem solid #231cf2;
+  border-top: 2px solid #f708b7;
+  border-left: 2px solid #f708b7;
+  border-right: 2px solid #f708b7;
+  border-bottom: 0.5rem solid #390887;
   border-radius: 3rem;
   text-align: center;
 }
 
 .nav-buttons .get-pepasol {
-  color: #0afb36;
+  color: #f708b7;
   text-shadow: 2px 2px black;
 }
 
@@ -362,7 +362,7 @@ h1 {
   font-size: 4rem;
   margin: 10px 0;
   text-shadow: 2px 2px black;
-  color: #21f837;
+  color: #f708b7;
   text-align: center; /* Center the h1 at the top */
 }
 
@@ -370,7 +370,7 @@ h1 {
 p {
   font-size: 1.2rem;
   margin: 5px 0;
-  color: #1e3ff6;
+  color: #5c129c;
   font-family: "Hanken Grotesk", sans-serif;
 }
 
@@ -389,10 +389,10 @@ p {
   padding: 20px;
   width: 160px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  border-top: 2px solid #f2fa09;
-  border-left: 2px solid #fa2d09;
-  border-right: 2px solid #09fa0d;
-  border-bottom: 0.5rem solid #231cf2;
+  border-top: 2px solid #f708b7;
+  border-left: 2px solid #f708b7;
+  border-right: 2px solid #f708b7;
+  border-bottom: 0.5rem solid #4b0aa7;
   border-radius: 3rem;
   text-align: center;
   margin-bottom: 10px;
@@ -401,7 +401,7 @@ p {
 .stat-box h2 {
   font-size: 2.2rem;
   margin: 0;
-  color: #f6241d ;
+  color: #f708b7 ;
   text-shadow: 2px 2px black;
 }
 
@@ -433,7 +433,7 @@ p {
 /* Header styles */
 .header-section h1 {
   font-size: 4rem;
-  color: #0af70a;
+  color: #f708b7;
   text-shadow: 2px 2px black;
   margin-bottom: 20px;
 }
@@ -442,10 +442,10 @@ p {
 .content-section {
   padding: 20px;
   border-radius: 15px;
-  border-top: 2px solid #f2fa09;
-  border-left: 2px solid #fa2d09;
-  border-right: 2px solid #09fa0d;
-  border-bottom: 0.5rem solid #231cf2;
+  border-top: 2px solid #f708b7;
+  border-left: 2px solid #f708b7;
+  border-right: 2px solid #f708b7;
+  border-bottom: 0.5rem solid #36067d;
   text-align: left;
 }
 
@@ -453,7 +453,7 @@ p {
 .content-section p {
   font-size: 19px;
   line-height: 1.5;
-  color: #fdf51a;
+  color: #f708b7;
   margin-bottom: 20px;
   font-family: "Hanken Grotesk", sans-serif;
 }
@@ -476,7 +476,7 @@ p {
 
 /* CA Styles */
 .ca {
-  color: #30f808; /* Text color */
+  color: #f708b7; /* Text color */
   font-weight: 600;
   font-size: 1.2em; /* Adjust as needed to match the button */
   background-image: linear-gradient(
@@ -522,14 +522,14 @@ p {
 }
 
 .shimmer::before {
-  box-shadow: 0 0 3px 2px rgba(13, 5, 248, 0.8), /* Adjusted for #9945FF */
-    0 0 7px 4px rgba(207, 243, 6, 0.6), /* Adjusted for #9945FF */
-    0 0 7px 4px rgba(2, 240, 14, 0.6); /* Adjusted for #9945FF */
+  box-shadow: 0 0 3px 2px rgba(93, 2, 190, 0.8), /* Adjusted for #9945FF */
+    0 0 7px 4px rgba(247, 14, 228, 0.6), /* Adjusted for #9945FF */
+    0 0 7px 4px rgba(247, 14, 228, 0.6); /* Adjusted for #9945FF */
   z-index: -1;
 }
 
 .shimmer::after {
-  box-shadow: inset 0 0 7px 4px rgba(246, 31, 31, 0.6);
+  box-shadow: inset 0 0 7px 4px rgba(227, 6, 205, 0.6);
   z-index: 2;
 }
 
@@ -583,12 +583,12 @@ p {
     from var(--mask, 0deg),
     transparent 0%,
     transparent 10%,
-    #09fa0d 36%, /* Adjusted for #9945FF */
-    #09fa0d 45%, /* Adjusted for #9945FF */
+    #f708b7 36%, /* Adjusted for #9945FF */
+    #f708b7 45%, /* Adjusted for #9945FF */
     transparent 50%,
     transparent 60%,
-    #09fa0d 85%, /* Adjusted for #9945FF */
-    #09fa0d 95%, /* Adjusted for #9945FF */
+    #f708b7 85%, /* Adjusted for #9945FF */
+    #f708b7 95%, /* Adjusted for #9945FF */
     transparent 100%
   );
   mask-size: cover;
@@ -613,7 +613,7 @@ p {
 /* Header Area Styles */
 .header-area h1 {
   font-size: 4rem;
-  color: #0466f7; /* Warm coral color */
+  color: #7f03b8; /* Warm coral color */
   text-shadow: 2px 2px black;
   margin-bottom: 20px;
   text-align: center;
@@ -627,18 +627,18 @@ p {
   text-shadow: 2px 2px black;
   border-bottom-width: 1px; /* Slightly thinner bottom border */
   border-radius: 15px;
-  border-top: 2px solid #f2fa09;
-  border-left: 2px solid #fa2d09;
-  border-right: 2px solid #09fa0d;
-  border-bottom: 0.5rem solid #231cf2;
-  color: #daf10b;
+  border-top: 2px solid #f708b7;
+  border-left: 2px solid #f708b7;
+  border-right: 2px solid #f708b7;
+  border-bottom: 0.5rem solid #240265;
+  color: #3c066b;
 }
 
 /* Content Styles */
 .details-area p {
   font-size: 18px;
   line-height: 1.6;
-  color: #ff4242;
+  color: #f708b7;
   margin-bottom: 20px;
   font-family: "Roboto", sans-serif;
   text-shadow: none;
@@ -652,11 +652,11 @@ p {
   padding: 10px 20px;
   margin: 20px auto; /* Centers the button and adds vertical margin */
   border-radius: 3rem;
-  border-top: 2px solid #f2fa09;
-  border-left: 2px solid #fa2d09;
-  border-right: 2px solid #09fa0d;
-  border-bottom: 0.5rem solid #231cf2;
-  color: #daf10b;
+  border-top: 2px solid #f708b7;
+  border-left: 2px solid #f708b7;
+  border-right: 2px solid #f708b7;
+  border-bottom: 0.5rem solid #4a099e;
+  color: #f708b7;
   display: block; /* Ensures the button is a block element */
   text-align: center; /* Centers the text inside the button */
 }
@@ -732,7 +732,7 @@ video {
   /* Header styles */
 .disc-section h1 {
   font-size: 1.8rem;
-  color: #fb2c2c;
+  color: #f708b7;
   text-shadow: 2px 2px black;
   margin-bottom: 20px;
   text-align: center; /* Center the text horizontally */
@@ -776,7 +776,7 @@ footer {
   padding: 20px;
   text-align: center;
   color: #ffffff;
-  border-top: 1px solid #ecef37;
+  border-top: 1px solid #f708b7;
 }
 
 .containerfooter {
@@ -795,7 +795,7 @@ footer {
 }
 
 .column h4 {
-  color: #178bf7;
+  color: #f708b7;
   margin-bottom: 15px;
   font-size: 20px;
 }
@@ -810,18 +810,18 @@ footer {
 }
 
 .column ul li a {
-  color: #32f91c;
+  color: #f708b7;
   text-decoration: none;
   font-size: 19px;
   transition: color 0.3s ease;
 }
 
 .column ul li a:hover {
-  color: #fae52d;
+  color: #f708b7;
 }
 
 .policy-id {
-  color: #fbff0c;
+  color: #f708b7;
   margin-top: 10px;
   font-size: 19px;
 }
@@ -850,11 +850,11 @@ footer {
 }
 
 .social-icons a:hover {
-  color: #f21f1f;
+  color: #f708b7;
 }
 
 .highlight {
-  color: #fdd716; /* Choose a color that you prefer */
+  color: #f708b7; /* Choose a color that you prefer */
 }
 
 
