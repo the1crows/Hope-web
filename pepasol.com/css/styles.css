@@ -1105,3 +1105,39 @@ footer {
 .tweet-container a:hover {
   color: #f708b7; /* Hover effect for links */
 }
+
+
+#carousel-section {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  position: relative;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 500px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 2px solid #f708b7;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #f708b7;
+}
+
+.swiper-pagination-bullet {
+  background: #240265;
+}
+
+.swiper-pagination-bullet-active {
+  background: #f708b7;
+}
