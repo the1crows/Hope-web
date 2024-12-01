@@ -47,6 +47,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 
     <title>Home | We Love Boobs</title>
@@ -158,7 +161,50 @@
   
 </script>
 
+<section id="carousel-section">
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <!-- Add your images here -->
+      <div class="swiper-slide">
+        <img src="images/carousel-image1.jpg" alt="Image 1">
+      </div>
+      <div class="swiper-slide">
+        <img src="images/carousel-image2.jpg" alt="Image 2">
+      </div>
+      <div class="swiper-slide">
+        <img src="images/carousel-image3.jpg" alt="Image 3">
+      </div>
+    </div>
+    
+    <!-- Navigation buttons -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    
+    <!-- Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+</section>
 
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    new Swiper('.swiper-container', {
+      loop: true,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      effect: 'slide', // You can change to 'fade', 'cube', etc.
+    });
+  });
+</script>
 
 
 <div class="marquee-wrapper">
